@@ -1,0 +1,25 @@
+{
+  "name": "mingoverse",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MingoVerse — universo 3D persistente para navegador",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "server": "node server/index.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "better-sqlite3": "13.2.0",
+    "express": "5.3.0",
+    "three": "0.187.0",
+    "ws": "8.23.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.8"
+  },
+  "engines": { "node": ">=22.12.0" }
+}

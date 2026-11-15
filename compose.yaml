@@ -1,0 +1,42 @@
+services:
+  mingoverse:
+    build:
+      context: .
+      args:
+        PUID: ${PUID:-1026}
+        PGID: ${PGID:-100}
+    container_name: MingoVerse
+    restart: unless-stopped
+    init: true
+    ports:
+      - "3307:3307"
+    environment:
+      NODE_ENV: production
+      PORT: 3307
+      HOST: 0.0.0.0
+      DATA_DIR: /app/data
+      SESSION_SECRET: ${SESSION_SECRET:?Define SESSION_SECRET en .env}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      TRUST_PROXY: ${TRUST_PROXY:-1}
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-}
+    volumes:
+      - ./data:/app/data
+    networks:
+      - mingoverse
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,noexec,nosuid
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3307/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+networks:
+  mingoverse:
+    driver: bridge
