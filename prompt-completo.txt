@@ -1,0 +1,1776 @@
+# MINGOVERSE
+## DESARROLLO DE UN UNIVERSO DE VIDEOJUEGOS 3D, MULTIJUGADOR Y PERSISTENTE
+
+Quiero que desarrolles un videojuego completo llamado **MingoVerse**.
+
+No quiero un prototipo, una demostración técnica, una maqueta, una página web con botones decorativos ni una simulación de un videojuego.
+
+Quiero desarrollar un universo de videojuegos 3D al que pueda acceder desde un navegador web, alojado en mi propio servidor mediante Docker, con cuentas de usuario, guardado persistente, multijugador, modo historia, cientos o miles de mapas, carreras, batallas y exploración.
+
+La idea es combinar las mejores características de diferentes géneros:
+
+- Juegos de carreras arcade.
+- Fórmula 1 y automovilismo.
+- Mundos y escenarios de anime.
+- Aventuras de mundo abierto.
+- Exploración en tercera persona.
+- Ciencia ficción.
+- Combate con armas.
+- Combate con sables de luz.
+- Carreras de barcos.
+- Carreras espaciales.
+- Batallas de vehículos.
+- Multijugador competitivo.
+- Progresión y desbloqueos.
+
+Quiero que MingoVerse sea un universo en constante expansión, donde pueda pasar de conducir un monoplaza de Fórmula 1 a recorrer una ciudad japonesa, explorar un planeta alienígena, competir con una lancha en Ibiza o participar en una batalla con sables de luz.
+
+**La prioridad absoluta es que el juego funcione realmente.** No sacrifiques las mecánicas, la estabilidad o la calidad por añadir funcionalidades que después no funcionan.
+
+No existe una fecha límite artificial. Prefiero un desarrollo largo, bien organizado y probado, antes que recibir rápidamente un videojuego incompleto.
+
+---
+
+# 1. IDENTIDAD DEL JUEGO
+
+Nombre oficial: **MingoVerse**.
+
+MingoVerse es un universo compartido de mundos, vehículos, personajes, competiciones y aventuras.
+
+Debe disponer de una identidad visual propia, atractiva y reconocible.
+
+Quiero una interfaz moderna, con aspecto de videojuego comercial, no de aplicación web genérica.
+
+El menú principal debe ofrecer acceso a:
+
+1. Modo historia.
+2. Carreras.
+3. Batallas.
+4. Exploración libre.
+5. Multijugador.
+6. Mi garaje.
+7. Mi base y mi nave.
+8. Mundos y mapas.
+9. Eventos y temporadas.
+10. Clasificaciones.
+11. Amigos y comunidad.
+12. Editor de mapas.
+13. Inventario y equipamiento.
+14. Perfil y progreso.
+15. Configuración.
+
+Todos los modos deben compartir los sistemas que tenga sentido compartir: cuentas, personajes, vehículos, armas, inventario, mapas, estadísticas, desbloqueos y progresión.
+
+No quiero que cada modalidad sea un juego separado sin conexión con las demás.
+
+# 2. UN UNIVERSO DE ENTRE 500 Y 5.000 MAPAS
+
+Este es uno de los pilares fundamentales del proyecto.
+
+Quiero que MingoVerse pueda alcanzar un catálogo de entre **500 y 5.000 mapas jugables**.
+
+Los mapas deben tener ambientaciones, recorridos, escenarios y mecánicas diferentes.
+
+No quiero miles de mapas que sean simples recoloraciones de un mismo circuito.
+
+Cada uno debe tener personalidad propia.
+
+Deben existir:
+
+- Mundos principales.
+- Regiones.
+- Circuitos.
+- Arenas de combate.
+- Escenarios de exploración.
+- Zonas de misiones.
+- Mundos secretos.
+- Mapas temporales.
+- Escenarios especiales.
+
+Los mundos deben poder albergar diferentes actividades: carreras, exploración, batallas y misiones, siempre que su diseño lo permita.
+
+## 2.1. Anime: categoría prioritaria
+
+Quiero una biblioteca enorme de mundos inspirados en el anime.
+
+Incluye los géneros:
+
+- Shōnen.
+- Shōjo.
+- Josei.
+- Seinen.
+- Kodomo.
+
+**El anime romántico debe tener un protagonismo especialmente importante.**
+
+Quiero escenarios inspirados en situaciones, ambientes y paisajes habituales del anime romántico:
+
+- Institutos japoneses.
+- Calles y barrios residenciales.
+- Estaciones de tren.
+- Playas durante el verano.
+- Festivales japoneses.
+- Templos y santuarios.
+- Parques con cerezos en flor.
+- Cafeterías.
+- Azoteas de institutos.
+- Miradores urbanos.
+- Ciudades iluminadas por la noche.
+- Pueblos costeros.
+- Lugares de citas románticas.
+- Centros comerciales.
+- Parques de atracciones.
+- Viajes escolares.
+- Paisajes primaverales.
+- Bosques otoñales.
+- Escenarios nevados.
+- Barrios tradicionales japoneses.
+- Calles comerciales japonesas.
+- Escenarios de verano con fuegos artificiales.
+
+Quiero que los mundos tengan una atmósfera cuidada, con iluminación, vegetación, música, efectos ambientales y detalles que transmitan emociones.
+
+No deben limitarse a ser circuitos. También deben permitir caminar, explorar, descubrir secretos y participar en misiones.
+
+Quiero especialmente:
+
+- Circuitos nocturnos por ciudades japonesas.
+- Carreras que atraviesen institutos y barrios.
+- Rutas costeras.
+- Circuitos entre cerezos en flor.
+- Carreras durante festivales.
+- Escenarios de invierno.
+- Mundos de anime romántico con misiones narrativas propias.
+
+Los géneros Shōnen, Seinen, Josei y Kodomo también deben disponer de mundos, mapas y actividades relevantes.
+
+## 2.2. Star Wars y ciencia ficción
+
+Crea mundos inspirados en el universo de Star Wars y en la ciencia ficción espacial.
+
+Incluye:
+
+- Planetas desérticos.
+- Planetas selváticos.
+- Planetas helados.
+- Ciudades galácticas.
+- Bases militares futuristas.
+- Estaciones espaciales.
+- Astilleros.
+- Templos antiguos.
+- Planetas volcánicos.
+- Campos de batalla espaciales.
+- Instalaciones tecnológicas.
+- Planetas cubiertos de océanos.
+- Colonias espaciales.
+- Ciudades industriales.
+- Mundos alienígenas.
+
+Permite participar en carreras terrestres, carreras espaciales, exploración a pie y batallas.
+
+Quiero una gran variedad de vehículos y naves.
+
+La ambientación debe tener una identidad visual diferenciada para cada planeta.
+
+## 2.3. Videojuegos de PlayStation
+
+Crea mundos originales inspirados en los grandes videojuegos de PlayStation.
+
+Especialmente en:
+
+- Aventuras de mundo abierto.
+- Fantasía.
+- Ciencia ficción.
+- Mundos postapocalípticos.
+- Civilizaciones antiguas.
+- Paisajes naturales.
+- Robots y máquinas.
+- Ciudades futuristas.
+- Exploración.
+- Supervivencia.
+
+Presta especial atención a la exploración en tercera persona, tomando como referencia la experiencia jugable de Horizon Zero Dawn y Horizon Forbidden West.
+
+Quiero:
+- Bosques enormes.
+- Montañas.
+- Ruinas.
+- Instalaciones abandonadas.
+- Máquinas.
+- Ciudades destruidas.
+- Ecosistemas.
+- Cuevas.
+- Zonas secretas.
+- Enemigos y criaturas.
+
+## 2.4. Jurassic Park y Jurassic World
+
+Crea mundos inspirados en los universos de dinosaurios y parques prehistóricos.
+
+Incluye:
+
+- Islas tropicales.
+- Parques temáticos.
+- Laboratorios.
+- Recintos de dinosaurios.
+- Instalaciones científicas.
+- Carreteras selváticas.
+- Centros de visitantes.
+- Instalaciones abandonadas.
+- Zonas de investigación.
+- Áreas de evacuación.
+- Instalaciones de seguridad.
+
+Implementa dinosaurios con modelos, animaciones y comportamientos propios.
+
+Los jugadores deben poder explorar, conducir vehículos todoterreno, participar en carreras y completar misiones de supervivencia.
+
+## 2.5. Ciudades del mundo
+
+Quiero escenarios basados en ciudades importantes.
+
+Incluye como mínimo:
+
+- Madrid.
+- París.
+- Roma.
+- Mónaco.
+- Londres.
+- Nueva York.
+- Tokio.
+- Kioto.
+- Barcelona.
+- Dubái.
+- Venecia.
+- Singapur.
+- Los Ángeles.
+- Río de Janeiro.
+- Estambul.
+- Ámsterdam.
+- Lisboa.
+- Sídney.
+- Hong Kong.
+
+Cada ciudad debe tener lugares reconocibles, edificios, plazas, calles, puentes, monumentos y diferentes ambientes.
+
+Madrid y Mónaco deben recibir especial atención.
+
+Permite carreras urbanas, recorridos turísticos, exploración, eventos y pruebas especiales.
+
+## 2.6. Fórmula 1 y automovilismo
+
+**La Fórmula 1 es uno de los pilares principales de MingoVerse.**
+
+Quiero una categoría completa de automovilismo.
+
+Incluye circuitos inspirados en:
+
+- Mónaco.
+- Monza.
+- Silverstone.
+- Spa-Francorchamps.
+- Suzuka.
+- Barcelona-Catalunya.
+- Interlagos.
+- Singapur.
+- Yas Marina.
+- Las Vegas.
+- Circuitos urbanos.
+- Circuitos históricos.
+- Circuitos permanentes.
+
+Quiero circuitos con características propias, desniveles, curvas lentas, curvas rápidas, rectas largas, zonas de adelantamiento y diferentes niveles de dificultad.
+
+Vehículos:
+
+- Monoplazas.
+- Coches GT.
+- Prototipos.
+- Coches de resistencia.
+- Coches de rally.
+- Superdeportivos.
+- Turismos.
+- Vehículos clásicos.
+
+Implementa:
+
+- Campeonatos.
+- Grandes Premios.
+- Clasificación.
+- Entrenamientos.
+- Contrarreloj.
+- Carreras completas.
+- DRS.
+- ERS o sistema equivalente.
+- Desgaste de neumáticos.
+- Diferentes compuestos.
+- Consumo de combustible.
+- Climatología dinámica.
+- Lluvia.
+- Estrategias de paradas.
+- Boxes.
+- Daños opcionales.
+- Rebufos.
+- Adelantamientos.
+- Diferentes configuraciones.
+
+Debe haber dos estilos de conducción:
+
+**Arcade:** sencillo, accesible y divertido.
+
+**Avanzado:** más exigente, con mayor importancia de la frenada, los neumáticos, la gestión energética y la estrategia.
+
+La conducción debe tener sensaciones excelentes. No quiero coches que parezcan deslizarse sin peso o que giren de forma artificial.
+
+## 2.7. Mundos inspirados en Mario Kart
+
+Crea mundos de carreras arcade llenos de creatividad.
+
+Ejemplos:
+
+- Circuitos suspendidos en el cielo.
+- Mundos de caramelos.
+- Circuitos submarinos.
+- Volcanes.
+- Montañas nevadas.
+- Ciudades de neón.
+- Selvas.
+- Castillos.
+- Circuitos espaciales.
+- Carreteras imposibles.
+- Plataformas móviles.
+- Mundos surrealistas.
+- Circuitos con gravedad variable.
+
+Incluye rampas, atajos, obstáculos, plataformas, saltos y elementos dinámicos.
+
+No copies circuitos o recursos protegidos. Crea escenarios originales.
+
+## 2.8. Mundos tecnológicos
+
+Quiero mundos inspirados en informática, tecnología e Internet.
+
+Ejemplos:
+
+- Centros de datos gigantescos.
+- Salas de servidores.
+- Pasillos de racks.
+- Sistemas de refrigeración.
+- Redes informáticas.
+- Circuitos dentro de procesadores.
+- Placas base gigantescas.
+- Chips.
+- Ciudades digitales.
+- Mundos virtuales.
+- Nubes de datos.
+- Laboratorios.
+- Empresas tecnológicas ficticias inspiradas en compañías como Google.
+
+Quiero conducir dentro de un servidor gigantesco, recorrer cables, atravesar procesadores y competir por instalaciones tecnológicas.
+
+Debe ser una categoría muy creativa.
+
+## 2.9. Carreras de barcos
+
+Implementa un modo de carreras marítimas completo.
+
+**Las carreras de barcos solo podrán celebrarse en cuatro ubicaciones:**
+
+1. Ibiza.
+2. Panamá.
+3. Uruguay.
+4. Italia.
+
+No generes carreras marítimas en otros países o regiones.
+
+Incluye:
+
+- Puertos.
+- Islas.
+- Costas.
+- Canales.
+- Bahías.
+- Marinas.
+- Muelles.
+- Boyas.
+- Circuitos marítimos.
+- Obstáculos flotantes.
+- Puentes.
+- Zonas turísticas.
+
+Tipos de embarcaciones:
+
+- Lanchas rápidas.
+- Barcos deportivos.
+- Barcos de competición.
+- Hidroalas.
+- Motos acuáticas.
+
+La física debe tener flotabilidad, olas, estelas, aceleración, resistencia del agua, giros y diferentes condiciones marítimas.
+
+Ibiza debe tener especial protagonismo.
+
+## 2.10. Carreras espaciales
+
+Crea circuitos de carreras de naves espaciales en:
+
+- Órbitas planetarias.
+- Estaciones espaciales.
+- Campos de asteroides.
+- Anillos planetarios.
+- Nebulosas.
+- Túneles espaciales.
+- Zonas de gravedad variable.
+- Instalaciones orbitales.
+- Ciudades espaciales.
+
+Incluye diferentes categorías de naves, motores y sistemas de propulsión.
+
+Las carreras deben aprovechar el movimiento tridimensional y ofrecer una auténtica sensación de velocidad.
+
+## 2.11. Carreras de coches en planetas
+
+Quiero una categoría específica para carreras planetarias.
+
+Incluye:
+
+- La Luna.
+- Marte.
+- Planetas ficticios.
+- Planetas desérticos.
+- Planetas helados.
+- Planetas volcánicos.
+- Planetas selváticos.
+- Planetas rocosos.
+- Planetas alienígenas.
+- Planetas inspirados en Star Wars.
+
+Cada planeta debe tener características que modifiquen la conducción:
+
+- Gravedad reducida.
+- Gravedad elevada.
+- Arena.
+- Rocas.
+- Hielo.
+- Polvo.
+- Atmósferas densas.
+- Tormentas.
+- Superficies resbaladizas.
+- Saltos de gran altura.
+
+---
+
+# 3. GENERACIÓN DE MAPAS Y EXPANSIÓN
+
+La arquitectura debe permitir llegar a 5.000 mapas sin almacenar miles de escenarios completos y duplicados.
+
+Implementa un sistema modular y procedural.
+
+Utiliza:
+
+- Piezas modulares.
+- Plantillas de circuitos.
+- Generación procedural de recorridos.
+- Semillas aleatorias persistentes.
+- Variaciones de terreno.
+- Iluminación.
+- Meteorología.
+- Obstáculos.
+- Decoración.
+- Rutas alternativas.
+- Eventos dinámicos.
+- Configuraciones especiales.
+
+Cada mapa debe tener un identificador único y metadatos propios.
+
+Los mapas generados deben tener recorridos válidos, checkpoints, límites, salida y meta.
+
+No cuentes como mapas diferentes simples variaciones de colores o iluminación. Deben existir diferencias reales de diseño y jugabilidad.
+
+Objetivos:
+
+- Primera versión: selección variada de mapas de calidad.
+- Catálogo ampliado: al menos 500 mapas verdaderamente diferentes.
+- Objetivo a largo plazo: hasta 5.000 mapas.
+
+El catálogo debe permitir búsqueda y filtros por:
+
+- Género.
+- Temática.
+- Tipo de vehículo.
+- Dificultad.
+- Región.
+- Planeta.
+- Modo de juego.
+- Duración.
+- Popularidad.
+- Fecha de publicación.
+
+Los mapas deben cargarse bajo demanda.
+
+No cargues todos los mundos simultáneamente.
+
+---
+
+# 4. MODO DE BATALLAS
+
+Crea un modo de juego completamente funcional de combate.
+
+Debe compartir los mundos, modelos, vehículos, personajes y recursos de los demás modos.
+
+Incluye:
+
+- Batallas individuales.
+- Batallas por equipos.
+- Eliminación.
+- Supervivencia.
+- Captura de zonas.
+- Captura de objetos.
+- Escolta.
+- Combates por objetivos.
+- Batallas de vehículos.
+- Batallas espaciales.
+- Batallas navales.
+- Combates a pie.
+
+## 4.1. Combate a pie
+
+El personaje debe poder:
+
+- Caminar.
+- Correr.
+- Saltar.
+- Esquivar.
+- Agacharse.
+- Apuntar.
+- Disparar.
+- Bloquear ataques.
+- Realizar ataques cuerpo a cuerpo.
+- Interactuar con objetos.
+- Recoger equipamiento.
+
+Cámara en tercera persona, movimiento fluido y animaciones naturales.
+
+## 4.2. Armas
+
+Implementa un catálogo amplio de armas ficticias y de ciencia ficción.
+
+Incluye:
+
+- Pistolas.
+- Rifles.
+- Escopetas.
+- Francotiradores.
+- Armas de energía.
+- Blásteres.
+- Armas de plasma.
+- Arcos.
+- Espadas.
+- Lanzas.
+- Armas pesadas.
+- Armas cuerpo a cuerpo.
+- Explosivos de videojuego.
+- Escudos energéticos.
+- Gadgets especiales.
+
+Cada arma necesita:
+
+- Nombre.
+- Descripción.
+- Categoría.
+- Daño.
+- Alcance.
+- Cadencia.
+- Precisión.
+- Recarga.
+- Rareza.
+- Animaciones.
+- Efectos.
+- Sonido.
+- Ventajas.
+- Debilidades.
+
+El sistema debe estar equilibrado.
+
+## 4.3. Sables de luz
+
+Este apartado merece especial atención.
+
+Quiero un catálogo amplio inspirado en los sables de Star Wars, incluidos los diseños más raros y experimentales.
+
+Incluye:
+
+- Sable convencional.
+- Sable de doble hoja.
+- Dos sables independientes.
+- Sable de empuñadura curva.
+- Sable de guarda cruzada.
+- Sable corto.
+- Shoto.
+- Pica de sable.
+- Sable de doble hoja giratorio.
+- Sables de hojas múltiples.
+- Sables de hoja inestable.
+- Sables experimentales.
+- Sables de energía especiales.
+
+Cada sable tendrá:
+
+- Nombre.
+- Descripción detallada.
+- Diseño.
+- Color.
+- Longitud.
+- Empuñadura.
+- Estilo de combate.
+- Velocidad.
+- Alcance.
+- Daño.
+- Ventajas y debilidades.
+- Rareza.
+- Efectos visuales.
+- Sonido característico.
+
+No quiero simples cambios de color. Los diseños deben tener identidad y, cuando corresponda, mecánicas diferentes.
+
+Incluye estilos de combate, bloqueos, ataques, esquivas y animaciones.
+
+Los sables más especiales deberán desbloquearse mediante historia, desafíos y recompensas.
+
+## 4.4. Batallas de vehículos
+
+Reutiliza los mismos sistemas de vehículos de las carreras.
+
+Permite:
+
+- Coches armados.
+- Vehículos blindados ficticios.
+- Naves espaciales de combate.
+- Barcos de combate.
+- Vehículos todoterreno.
+
+Diseña arenas específicas para cada clase.
+
+No desarrolles una física completamente separada para las batallas: reutiliza el sistema general de vehículos y añade las mecánicas de combate necesarias.
+
+---
+
+# 5. MODO HISTORIA
+
+El modo historia es uno de los pilares principales.
+
+No quiero una colección de carreras inconexas.
+
+Quiero una historia original, interesante, bien escrita y coherente.
+
+Debe combinar:
+
+- Exploración a pie.
+- Carreras de coches.
+- Fórmula 1.
+- Carreras de barcos.
+- Carreras espaciales.
+- Batallas.
+- Misiones de vehículos.
+- Exploración planetaria.
+- Investigación.
+- Desafíos.
+- Personajes.
+- Misterios.
+- Facciones.
+- Rivales.
+- Aliados.
+- Antagonistas.
+- Jefes finales.
+- Decisiones narrativas cuando tengan sentido.
+
+La historia debe proporcionar motivos para recorrer los mundos y conocer sus personajes.
+
+## 5.1. Narrativa
+
+Crea una aventura original de ciencia ficción que conecte las diferentes regiones del universo MingoVerse.
+
+Debe contar con:
+
+- Protagonista personalizable.
+- Personajes secundarios.
+- Rivales.
+- Aliados.
+- Organizaciones.
+- Facciones.
+- Misterios.
+- Antagonistas.
+- Conflictos.
+- Misiones principales.
+- Misiones secundarias.
+- Decisiones.
+- Giros argumentales.
+- Momentos emotivos.
+- Desenlace satisfactorio.
+
+La narrativa debe resultar coherente al pasar de un escenario de anime romántico a uno tecnológico, una isla con dinosaurios o un planeta alienígena.
+
+Los mundos de anime romántico deben poder tener misiones personales, encuentros, relaciones entre personajes, festivales, momentos emotivos y pequeñas historias propias.
+
+## 5.2. Exploración en tercera persona
+
+La exploración debe inspirarse en la experiencia jugable de Horizon Zero Dawn y Horizon Forbidden West.
+
+Implementa:
+
+- Caminar.
+- Correr.
+- Saltar.
+- Esquivar.
+- Interactuar.
+- Escalar cuando corresponda.
+- Explorar.
+- Descubrir secretos.
+- Coleccionables.
+- Misiones.
+- Enemigos.
+- Combates.
+- Diálogos.
+- Escenas narrativas.
+
+Los controles y animaciones deben ser naturales.
+
+## 5.3. Todos los mundos principales
+
+La historia debe organizarse por capítulos y regiones.
+
+Todos los mundos principales de MingoVerse deben tener contenido narrativo.
+
+Los mapas adicionales pueden integrarse mediante misiones, desafíos y actividades relacionadas con sus ambientaciones.
+
+No quiero que el modo historia sea simplemente un menú de selección de circuitos.
+
+## 5.4. Recompensas
+
+El jugador podrá desbloquear:
+
+- Coches.
+- Monoplazas.
+- Barcos.
+- Naves.
+- Armas.
+- Sables de luz.
+- Personajes.
+- Trajes.
+- Cascos.
+- Pinturas.
+- Mejoras visuales.
+- Decoraciones.
+- Accesorios.
+- Mapas secretos.
+- Circuitos especiales.
+- Vehículos únicos.
+
+Estos elementos deben poder utilizarse posteriormente en el modo solitario y multijugador cuando las reglas lo permitan.
+
+Las recompensas importantes deben conseguirse jugando, superando misiones, explorando y completando desafíos.
+
+No conviertas todo el progreso en compras.
+
+---
+
+# 6. CUENTAS DE USUARIO Y GUARDADO MULTIDISPOSITIVO
+
+**ESTE ES UN REQUISITO ABSOLUTAMENTE CRÍTICO.**
+
+El jugador debe disponer de una cuenta personal.
+
+El modo historia debe poder continuarse durante meses o años sin perder el progreso.
+
+## 6.1. Registro
+
+Implementa:
+
+- Registro de usuario.
+- Nombre de usuario.
+- Correo electrónico.
+- Contraseña.
+- Inicio de sesión.
+- Cierre de sesión.
+- Recuperación de contraseña, si se configura correo.
+- Cambio de contraseña.
+- Perfil.
+- Gestión de sesiones.
+- Cierre remoto de sesiones.
+
+Las contraseñas deben almacenarse mediante hash seguro.
+
+Implementa protección contra ataques de fuerza bruta y sesiones inseguras.
+
+## 6.2. Guardado persistente
+
+Guarda en el servidor:
+
+- Progreso de historia.
+- Capítulos.
+- Misiones.
+- Inventario.
+- Vehículos.
+- Barcos.
+- Naves.
+- Armas.
+- Sables.
+- Personajes.
+- Experiencia.
+- Nivel.
+- Estadísticas.
+- Configuraciones.
+- Puntuaciones.
+- Clasificaciones.
+- Amigos.
+- Historial de partidas.
+- Garaje.
+- Base personal.
+- Nave espacial.
+- Mapas personalizados.
+
+Implementa:
+
+- Autoguardado.
+- Guardado manual.
+- Checkpoints.
+- Copias de seguridad.
+- Recuperación ante errores.
+- Versiones de progreso.
+
+No debe perderse el avance por cerrar el navegador, perder conexión o reiniciar Docker.
+
+## 6.3. Sincronización entre dispositivos
+
+Quiero empezar una partida en un ordenador, cerrarlo y continuar desde otro dispositivo exactamente donde estaba.
+
+El progreso se almacena vinculado a la cuenta.
+
+No debe depender del navegador ni del dispositivo.
+
+Si se abren varias sesiones simultáneamente, gestiona los conflictos de sincronización y evita sobrescribir progreso reciente.
+
+La campaña debe exigir inicio de sesión para disponer de guardado persistente.
+
+Puede existir un modo de prueba local, pero no debe confundirse con una partida guardada en la cuenta.
+
+---
+
+# 7. MI GARAJE Y MI BASE PERSONAL
+
+Quiero que cada usuario tenga un espacio personal dentro de MingoVerse.
+
+## 7.1. Garaje central
+
+Un garaje 3D donde aparezcan los vehículos desbloqueados.
+
+Debe permitir:
+
+- Consultar coches.
+- Seleccionar vehículos.
+- Comparar estadísticas.
+- Personalizar.
+- Pintar.
+- Cambiar llantas.
+- Añadir accesorios.
+- Decorar.
+- Consultar barcos.
+- Consultar naves.
+- Consultar vehículos especiales.
+
+El garaje debe ser visualmente atractivo y poder ampliarse.
+
+## 7.2. Base personal
+
+Cada jugador debe disponer de una base propia que vaya evolucionando según avance en la historia.
+
+Debe funcionar como centro de operaciones.
+
+Incluye:
+
+- Garaje.
+- Hangar.
+- Arsenal.
+- Zona de personalización.
+- Sala de trofeos.
+- Zona de descanso.
+- Panel de misiones.
+- Acceso a los mundos.
+- Zona de exposición de recompensas.
+
+Permite decorar, ampliar y personalizar la base.
+
+Los elementos decorativos y las ampliaciones pueden desbloquearse jugando.
+
+## 7.3. Nave espacial personal
+
+Quiero que el jugador tenga una nave espacial propia.
+
+Esta nave será su hogar móvil y uno de los principales centros de operaciones.
+
+Debe permitir:
+
+- Viajar entre planetas.
+- Seleccionar destinos.
+- Consultar misiones.
+- Acceder al inventario.
+- Gestionar vehículos.
+- Consultar mapas.
+- Ver estadísticas.
+- Desbloquear mejoras.
+- Decorar interiores.
+- Ampliar habitaciones.
+- Mejorar motores y sistemas.
+- Desbloquear nuevos módulos.
+
+La nave debe evolucionar según el progreso del jugador.
+
+Debe tener una presentación 3D, interiores explorables y animaciones.
+
+Cuando sea posible, permite caminar por su interior y acceder a sus diferentes secciones.
+
+La nave y la base deben estar sincronizadas con la cuenta.
+
+---
+
+# 8. MODOS DE JUEGO
+
+## 8.1. Modo solitario
+
+Debe ser independiente del modo historia.
+
+Incluye:
+
+- Carreras contra IA.
+- Contrarreloj.
+- Campeonatos.
+- Batallas contra bots.
+- Entrenamiento.
+- Exploración libre.
+- Pruebas de vehículos.
+- Desafíos.
+- Carreras personalizadas.
+- Arenas personalizadas.
+
+Los elementos desbloqueados en la historia podrán utilizarse aquí.
+
+## 8.2. Multijugador online
+
+Permite competir y combatir con amigos u otros usuarios.
+
+Incluye:
+
+- Salas públicas.
+- Salas privadas.
+- Códigos de invitación.
+- Sistema de amigos.
+- Invitaciones.
+- Lista de jugadores.
+- Estado online.
+- Chat de texto.
+- Carreras.
+- Batallas.
+- Equipos.
+- Torneos.
+- Clasificaciones.
+- Historial.
+
+Debe admitir inicialmente entre 2 y 8 jugadores por partida, ampliable si la arquitectura y el rendimiento lo permiten.
+
+Los modos online deben incluir coches, barcos, naves y combates.
+
+## 8.3. Pantalla dividida
+
+Permite jugar desde el mismo ordenador con hasta cuatro jugadores.
+
+Cada usuario necesita:
+
+- Cámara independiente.
+- Vehículo o personaje propio.
+- Controles propios.
+- HUD independiente.
+- Puntuaciones independientes.
+
+Debe ser compatible con mandos conectados al ordenador.
+
+Utiliza la Gamepad API y permite configurar controles y sensibilidad.
+
+También debe existir una alternativa de teclado.
+
+## 8.4. Partidas personalizadas
+
+Permite seleccionar:
+
+- Mapa.
+- Modo.
+- Número de vueltas.
+- Duración.
+- Vehículos.
+- Armas.
+- Participantes.
+- Equipos.
+- Dificultad.
+- Meteorología.
+- Hora del día.
+- Reglas de puntuación.
+
+---
+
+# 9. EVENTOS ESPECIALES Y TEMPORADAS
+
+Quiero que MingoVerse tenga vida más allá de las partidas normales.
+
+Implementa un sistema de eventos y temporadas.
+
+## 9.1. Eventos de anime
+
+Especialmente importantes.
+
+Incluye eventos inspirados en las estaciones y celebraciones japonesas:
+
+- Primavera y cerezos en flor.
+- Verano y festivales.
+- Fuegos artificiales.
+- Festivales escolares.
+- Otoño.
+- Invierno.
+- Navidad.
+- San Valentín.
+- Viajes escolares.
+- Eventos nocturnos.
+
+Cada evento puede incorporar:
+
+- Mapas temporales.
+- Carreras especiales.
+- Misiones.
+- Desafíos.
+- Historias cortas.
+- Recompensas exclusivas.
+- Decoraciones.
+- Trajes.
+- Vehículos temáticos.
+
+Quiero que los eventos de anime romántico tengan especial cuidado en su ambientación y narrativa.
+
+## 9.2. Eventos de competición
+
+Incluye:
+
+- Grandes Premios especiales.
+- Campeonatos de Fórmula 1.
+- Competiciones de resistencia.
+- Torneos de carreras.
+- Desafíos marítimos.
+- Campeonatos espaciales.
+- Torneos de batalla.
+
+## 9.3. Temporadas
+
+Cada temporada debe poder incorporar:
+
+- Nuevos mapas.
+- Nuevos vehículos.
+- Nuevos personajes.
+- Nuevos desafíos.
+- Nuevas misiones.
+- Nuevos objetos.
+- Clasificaciones.
+- Recompensas.
+
+Las temporadas deben poder rotar sin borrar las estadísticas ni el progreso permanente.
+
+No es necesario que haya un servicio externo de actualizaciones. El propio administrador debe poder publicar eventos y contenido desde los archivos o sistemas internos del juego.
+
+---
+
+# 10. EXPLORACIÓN LIBRE Y SECRETOS
+
+No quiero que todo consista en entrar en una carrera o una misión.
+
+Los mundos deben poder explorarse libremente cuando estén diseñados para ello.
+
+Permite:
+
+- Abandonar vehículos.
+- Caminar por ciudades.
+- Recorrer playas.
+- Visitar instalaciones.
+- Descubrir lugares ocultos.
+- Encontrar coleccionables.
+- Investigar zonas.
+- Descubrir rutas secretas.
+- Encontrar vehículos especiales.
+- Desbloquear misiones.
+- Interactuar con personajes.
+- Descubrir acontecimientos aleatorios.
+
+Incluye secretos y recompensas que incentiven explorar.
+
+Algunos vehículos, armas, personajes y mapas deben estar escondidos y requerir investigación o desafíos.
+
+Los mundos principales de la historia deben tener zonas explorables y actividades independientes de la trama principal.
+
+---
+
+# 11. PROGRESIÓN Y CLASIFICACIONES
+
+Cada jugador debe tener un perfil persistente.
+
+Incluye:
+
+- Nivel.
+- Experiencia.
+- Puntos.
+- Victorias.
+- Derrotas.
+- Podios.
+- Carreras.
+- Batallas.
+- Tiempo jugado.
+- Mejores tiempos.
+- Mapas completados.
+- Misiones completadas.
+- Coleccionables.
+- Vehículos desbloqueados.
+- Armas desbloqueadas.
+- Logros.
+
+Crea clasificaciones de:
+
+1. Puntuación global.
+2. Carreras.
+3. Batallas.
+4. Circuitos.
+5. Tipos de vehículo.
+6. Temporadas.
+7. Amigos.
+8. Contrarreloj.
+9. Modo historia.
+
+Utiliza un sistema de puntuación equilibrado.
+
+Valora la habilidad, los resultados y los objetivos conseguidos, no solo el tiempo jugado.
+
+Incluye medidas para reducir trampas y manipulación de resultados.
+
+---
+
+# 12. GARAJE, VEHÍCULOS Y PERSONALIZACIÓN
+
+Categorías:
+
+- Deportivos.
+- Superdeportivos.
+- Monoplazas.
+- GT.
+- Prototipos.
+- Rally.
+- Todoterrenos.
+- Karts.
+- Coches futuristas.
+- Barcos.
+- Naves espaciales.
+- Vehículos especiales.
+
+Cada vehículo tendrá:
+
+- Modelo 3D.
+- Nombre.
+- Descripción.
+- Velocidad.
+- Aceleración.
+- Frenada.
+- Agarre.
+- Maniobrabilidad.
+- Masa.
+- Derrape.
+- Habilidades especiales.
+
+Permite personalizar:
+
+- Pintura.
+- Colores.
+- Llantas.
+- Decoraciones.
+- Alerones.
+- Accesorios.
+- Efectos visuales.
+- Matrículas ficticias.
+
+Las personalizaciones visuales no deben proporcionar ventajas competitivas injustas.
+
+---
+
+# 13. SISTEMA DE FÍSICAS
+
+Implementa diferentes sistemas físicos cuando sea necesario, pero reutiliza arquitecturas y componentes.
+
+## Coches
+
+- Aceleración.
+- Frenada.
+- Marcha atrás.
+- Dirección sensible a la velocidad.
+- Derrapes.
+- Nitro.
+- Colisiones.
+- Suspensión.
+- Superficies.
+- Daños opcionales.
+- Reaparición.
+- Saltos.
+
+## Barcos
+
+- Flotabilidad.
+- Aceleración.
+- Resistencia.
+- Olas.
+- Estelas.
+- Giros.
+- Colisiones.
+- Condiciones marítimas.
+
+## Naves
+
+- Movimiento en tres dimensiones.
+- Aceleración.
+- Frenado.
+- Rotación.
+- Inercia.
+- Impulso.
+- Maniobras evasivas.
+- Propulsión.
+
+## Personajes
+
+- Caminar.
+- Correr.
+- Saltar.
+- Esquivar.
+- Combatir.
+- Interactuar.
+- Animaciones naturales.
+
+Los controles deben ser sencillos de aprender.
+
+La calidad de la conducción y el combate debe tener prioridad sobre el realismo extremo.
+
+---
+
+# 14. SISTEMA DE AMIGOS Y COMUNIDAD
+
+Implementa:
+
+- Añadir amigos.
+- Eliminar amigos.
+- Buscar usuarios.
+- Invitaciones.
+- Estado online.
+- Salas de amigos.
+- Perfiles públicos.
+- Comparación de estadísticas.
+- Clasificaciones.
+- Espectador.
+- Repeticiones.
+- Compartir mapas.
+- Valorar mapas.
+- Reportar mapas.
+
+Incluye controles de privacidad y moderación.
+
+---
+
+# 15. EDITOR DE MAPAS
+
+Crea un editor de mapas para jugadores.
+
+Debe permitir:
+
+- Elegir entorno.
+- Colocar carreteras.
+- Modificar curvas.
+- Colocar rampas.
+- Añadir obstáculos.
+- Crear checkpoints.
+- Definir salida y meta.
+- Añadir decoración.
+- Modificar meteorología.
+- Probar el mapa.
+- Guardarlo.
+- Compartirlo.
+
+Los mapas creados por usuarios podrán utilizarse en partidas privadas y, tras superar las verificaciones correspondientes, en partidas públicas.
+
+El editor debe ser sencillo e intuitivo.
+
+El contenido compartido debe estar sujeto a moderación y validación técnica.
+
+---
+
+# 16. INTERFAZ, GRÁFICOS Y AUDIO
+
+Quiero gráficos 3D atractivos, modernos y bien optimizados.
+
+Cada categoría debe tener una identidad visual diferente.
+
+Los mundos de anime romántico deben ser coloridos, atmosféricos y emotivos.
+
+Los de Fórmula 1 deben ser tecnológicos, deportivos y competitivos.
+
+Los espaciales deben transmitir escala y espectacularidad.
+
+Los tecnológicos deben aprovechar la iluminación, los circuitos electrónicos y las estructuras digitales.
+
+Los escenarios de dinosaurios deben cuidar la vegetación, las criaturas y la iluminación ambiental.
+
+La interfaz debe contar con:
+
+- Animaciones.
+- Transiciones.
+- Fondos 3D.
+- Iluminación.
+- Tipografía cuidada.
+- Iconos coherentes.
+- Menús intuitivos.
+- Calidad visual configurable.
+
+Audio:
+
+- Motores.
+- Derrapes.
+- Colisiones.
+- Agua.
+- Viento.
+- Ambientación.
+- Armas.
+- Sables de luz.
+- Interacciones.
+- Música ambiental.
+- Música de competición.
+
+Utiliza música y recursos originales o debidamente licenciados.
+
+---
+
+# 17. ORIGINALIDAD Y PROPIEDAD INTELECTUAL
+
+Las referencias a anime, Star Wars, PlayStation, Jurassic Park, Mario Kart, Horizon y Fórmula 1 sirven como referencias creativas.
+
+Quiero que se creen mundos originales que evoquen esas experiencias.
+
+No utilices directamente modelos, personajes, logotipos, texturas, música, diálogos o recursos de franquicias comerciales sin los derechos correspondientes.
+
+Puedes emplear contenido oficial cuando exista autorización.
+
+Cuando no exista licencia, crea diseños, nombres, personajes, vehículos y escenarios originales.
+
+La prioridad es que el resultado tenga identidad propia y que pueda distribuirse legalmente.
+
+---
+
+# 18. ARQUITECTURA Y TECNOLOGÍA
+
+El videojuego debe ser una aplicación web 3D.
+
+Tecnologías recomendadas:
+
+- Three.js para renderizado.
+- Rapier para físicas locales.
+- Node.js para backend.
+- WebSockets para multijugador.
+- SQLite para persistencia inicial.
+- Docker Compose para despliegue.
+
+Puedes seleccionar otras tecnologías si existe una ventaja técnica clara y documentada.
+
+No añadas complejidad innecesaria.
+
+## 18.1. Optimización del servidor
+
+El servidor será un Synology DS224+ con recursos limitados.
+
+Este punto es crítico.
+
+**El servidor no debe renderizar gráficos ni ejecutar la simulación física completa de cada vehículo.**
+
+Toda la representación 3D se realiza en el navegador.
+
+La física del modo historia y solitario se ejecuta en el cliente.
+
+El backend debe ocuparse principalmente de:
+
+- Cuentas.
+- Autenticación.
+- Guardados.
+- Clasificaciones.
+- Estadísticas.
+- Salas.
+- Sincronización.
+- Resultados.
+- Inventario.
+- Amigos.
+- Estado de las partidas.
+
+Utiliza WebSockets con sincronización eficiente.
+
+Implementa:
+
+- Interpolación.
+- Predicción.
+- Actualizaciones de estado.
+- Envío de datos necesarios.
+- Compresión cuando sea beneficiosa.
+- Frecuencia adaptable.
+- Gestión eficiente de conexiones.
+
+Evita cálculos pesados y transmisiones innecesarias.
+
+El servidor debe validar los checkpoints, tiempos, velocidades, resultados y estados de la partida.
+
+No prometas un sistema antitrampas infalible.
+
+El objetivo es mantener un consumo moderado de CPU y RAM.
+
+## 18.2. Optimización del cliente
+
+Debe funcionar en ordenadores de gama media.
+
+Implementa:
+
+- LOD.
+- Carga progresiva.
+- Texturas comprimidas.
+- Reutilización de modelos.
+- Culling.
+- Instanciación.
+- Calidad gráfica configurable.
+- FPS configurable.
+- Gestión de memoria.
+- Descarga de recursos no utilizados.
+
+Los mundos deben cargarse bajo demanda.
+
+No mantengas miles de mapas simultáneamente en memoria.
+
+## 18.3. Datos y seguridad
+
+Mantén separados:
+
+- Usuarios.
+- Progreso.
+- Inventario.
+- Estadísticas.
+- Carreras.
+- Batallas.
+- Mapas.
+- Configuraciones.
+- Temporadas.
+- Amigos.
+
+Utiliza una base de datos persistente, migraciones, copias de seguridad y validación de entradas.
+
+La pérdida de una sesión o el reinicio del contenedor no debe eliminar los datos.
+
+---
+
+# 19. INSTALACIÓN EN SYNOLOGY
+
+Quiero alojar MingoVerse mediante Docker Compose.
+
+Características:
+
+- Puerto: 3307.
+- Volúmenes persistentes.
+- Base de datos persistente.
+- Variables de entorno.
+- Reinicio automático.
+- Logs.
+- Healthcheck.
+- Compatibilidad con reverse proxy.
+- Soporte WebSocket.
+- Actualizaciones sin pérdida de datos.
+- Copias de seguridad.
+
+Debe poder accederse desde la red local y desde Internet mediante un dominio y reverse proxy.
+
+El funcionamiento normal no debe depender de servicios externos obligatorios.
+
+El sistema debe funcionar aunque no disponga de acceso a Internet, salvo las funciones que necesiten conexión entre dispositivos remotos.
+
+---
+
+# 20. METODOLOGÍA DE DESARROLLO
+
+No intentes crear todo el universo manualmente ni desarrollar cientos de funciones sin una arquitectura coherente.
+
+Trabaja de manera modular y por fases.
+
+Sin embargo, no utilices las fases como excusa para entregar únicamente una demo y detener el desarrollo.
+
+## FASE 1: NÚCLEO
+
+Implementa:
+
+- Motor gráfico.
+- Física.
+- Vehículos.
+- Personaje en tercera persona.
+- Sistema de mapas.
+- Backend.
+- Cuentas.
+- Base de datos.
+- Guardado.
+- Docker.
+
+## FASE 2: PRIMERA EXPERIENCIA COMPLETA
+
+Incluye una selección variada de mapas funcionales:
+
+- Anime romántico.
+- Shōnen.
+- Fórmula 1.
+- Ciudad inspirada en Madrid o Mónaco.
+- Jurassic Park.
+- Mundo tecnológico.
+- Carrera de barcos en Ibiza.
+- Carrera espacial.
+- Circuito lunar.
+- Arena de combate.
+
+Implementa:
+- Una carrera.
+- Una batalla.
+- Exploración.
+- Una sección del modo historia.
+- Cuenta de usuario.
+- Guardado multidispositivo.
+- Pantalla dividida.
+- Multijugador online.
+
+Todo debe funcionar.
+
+## FASE 3: MODOS COMPLETOS
+
+Incorpora:
+
+- Carreras.
+- Batallas.
+- Historia.
+- Exploración.
+- Garaje.
+- Base personal.
+- Nave espacial.
+- Inventario.
+- Desbloqueos.
+- Clasificaciones.
+- Amigos.
+- Temporadas.
+
+## FASE 4: EXPANSIÓN DEL UNIVERSO
+
+Incorpora:
+
+- Generación procedural.
+- Cientos de mapas.
+- Nuevos vehículos.
+- Nuevas armas.
+- Nuevos personajes.
+- Nuevos planetas.
+- Nuevos circuitos.
+- Más capítulos.
+- Misiones secundarias.
+- Eventos.
+- Mapas especiales.
+
+Continúa hasta alcanzar el catálogo objetivo de mapas.
+
+## FASE 5: OPTIMIZACIÓN
+
+Prueba:
+
+- Carga del servidor.
+- CPU.
+- RAM.
+- Multijugador.
+- Guardado.
+- Recuperación.
+- Desconexiones.
+- Navegadores.
+- Mandos.
+- Pantalla dividida.
+- Reverse proxy.
+- Seguridad.
+- Rendimiento gráfico.
+
+Cada fase debe entregar un producto funcional.
+
+No dejes una colección de archivos a medio terminar.
+
+---
+
+# 21. CRITERIOS DE ACEPTACIÓN OBLIGATORIOS
+
+Antes de declarar terminado el proyecto, verifica:
+
+1. Registro e inicio de sesión.
+2. Guardado persistente.
+3. Continuación de historia desde otro dispositivo.
+4. Recuperación de partidas.
+5. Carreras reales.
+6. Física de conducción.
+7. Carreras de barcos.
+8. Carreras espaciales.
+9. Exploración a pie.
+10. Combate.
+11. Sables de luz funcionales.
+12. Modo historia.
+13. Recompensas.
+14. Garaje.
+15. Base personal.
+16. Nave espacial.
+17. Eventos y temporadas.
+18. Exploración libre.
+19. Editor de mapas.
+20. Pantalla dividida.
+21. Multijugador online.
+22. Sincronización entre jugadores.
+23. Puntuaciones persistentes.
+24. Clasificaciones.
+25. Generación procedural.
+26. Mapas válidos.
+27. Carga bajo demanda.
+28. Reinicio de Docker sin pérdida de datos.
+29. Funcionamiento mediante reverse proxy.
+30. Consumo moderado de recursos.
+
+No marques una función como terminada porque exista un botón o una pantalla.
+
+Debe estar implementada, conectada con los sistemas correspondientes y probada.
+
+---
+
+# 22. ENTREGA FINAL
+
+Entrega:
+
+- Proyecto completo.
+- Código fuente organizado.
+- Frontend.
+- Backend.
+- Base de datos.
+- Migraciones.
+- Sistema de cuentas.
+- Guardado.
+- Física.
+- Combate.
+- Catálogo de mapas.
+- Generador procedural.
+- Recursos gráficos originales.
+- Recursos de sonido.
+- Dockerfile.
+- docker-compose.yml.
+- .env.example.
+- README.
+- Instrucciones de instalación.
+- Actualización.
+- Copias de seguridad.
+- Documentación de arquitectura.
+- Procedimiento de recuperación.
+
+No crees un único HTML gigantesco.
+
+Organiza el proyecto por módulos y responsabilidades.
+
+No dejes funcionalidades importantes simuladas ni datos de ejemplo permanentes.
+
+Si algo todavía no está implementado, indícalo honestamente.
+
+No afirmes que el juego tiene 5.000 mapas si todavía no los tiene.
+
+No detengas el desarrollo al finalizar la primera versión jugable. Continúa construyendo las funcionalidades y los contenidos pendientes de acuerdo con esta especificación.
+
+---
+
+# 23. FILOSOFÍA FINAL DEL PROYECTO
+
+MingoVerse debe ser un universo al que pueda volver durante meses o años.
+
+Quiero poder:
+
+- Continuar mi historia.
+- Conocer personajes.
+- Explorar mundos.
+- Competir en Fórmula 1.
+- Conducir por Madrid.
+- Recorrer ciudades japonesas.
+- Disfrutar de mundos de anime romántico.
+- Competir en Ibiza con barcos.
+- Viajar por el espacio.
+- Explorar planetas.
+- Combatir con armas.
+- Desbloquear sables de luz.
+- Coleccionar vehículos.
+- Mejorar mi base.
+- Mejorar mi nave.
+- Crear mapas.
+- Participar en eventos.
+- Competir con amigos.
+- Mejorar mis estadísticas.
+- Descubrir secretos.
+- Seguir ampliando mi colección.
+
+Quiero un juego con variedad suficiente para no aburrirme y con progresión suficiente para tener siempre algo que conseguir.
+
+**No sacrifiques calidad por cantidad. Construye primero sistemas sólidos y después amplía el universo hasta alcanzar los objetivos de contenido.**
+
+No existe una fecha límite artificial.
+
+Prioriza:
+
+1. Funcionamiento real.
+2. Estabilidad.
+3. Calidad de conducción y combate.
+4. Guardado multidispositivo.
+5. Multijugador.
+6. Calidad visual.
+7. Profundidad del modo historia.
+8. Cantidad de mapas.
+9. Expansibilidad.
+
+Toma decisiones técnicas razonables sin detenerte a preguntarme por cada pequeño detalle.
+
+Documenta las decisiones importantes.
+
+**Quiero que MingoVerse sea un universo de videojuegos persistente, expansible y verdaderamente jugable, no una demo visual.**
+
+---
+
+# 24. CONTINUIDAD Y EJECUCIÓN DEL DESARROLLO
+
+Es imprescindible que entiendas que este proyecto debe desarrollarse de manera progresiva, pero no quiero promesas de entregas futuras.
+
+No afirmes que prepararás una segunda versión, que continuarás trabajando más adelante o que entregarás nuevas funcionalidades en otro momento si no estás ejecutando realmente ese trabajo.
+
+Cuando empieces una tarea de desarrollo:
+
+1. Trabaja sobre los archivos reales del proyecto.
+2. Implementa las funcionalidades solicitadas en la ejecución actual.
+3. Ejecuta pruebas cuando sea posible.
+4. Corrige los errores que encuentres.
+5. Mantén el proyecto en un estado funcional.
+6. Actualiza la documentación.
+7. Indica exactamente qué funcionalidades están terminadas y cuáles siguen pendientes.
+
+No sustituyas funcionalidades reales por botones decorativos, simulaciones o contenido ficticio.
+
+No declares terminado el proyecto si solamente has desarrollado una parte.
+
+Si existen límites técnicos o de ejecución que impiden completar todo el proyecto, aprovéchalos al máximo sin inventar resultados.
+
+Cuando alcances esos límites, guarda los avances en los archivos del proyecto y proporciona un informe preciso del estado actual, indicando la siguiente tarea concreta que debe ejecutarse.
+
+La continuación debe partir de los archivos existentes, sin volver a empezar desde cero ni sobrescribir funcionalidades que ya funcionan.
+
+**No quiero que me prometas un videojuego que desarrollarás en el futuro. Quiero que desarrolles realmente MingoVerse, avanzando todo lo posible en cada ejecución.**
