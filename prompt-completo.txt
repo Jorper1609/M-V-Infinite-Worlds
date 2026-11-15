@@ -1,7 +1,7 @@
-# MINGOVERSE
+# M&V: Infinite Worlds
 ## DESARROLLO DE UN UNIVERSO DE VIDEOJUEGOS 3D, MULTIJUGADOR Y PERSISTENTE
 
-Quiero que desarrolles un videojuego completo llamado **MingoVerse**.
+Quiero que desarrolles un videojuego completo llamado **M&V: Infinite Worlds**.
 
 No quiero un prototipo, una demostración técnica, una maqueta, una página web con botones decorativos ni una simulación de un videojuego.
 
@@ -23,7 +23,7 @@ La idea es combinar las mejores características de diferentes géneros:
 - Multijugador competitivo.
 - Progresión y desbloqueos.
 
-Quiero que MingoVerse sea un universo en constante expansión, donde pueda pasar de conducir un monoplaza de Fórmula 1 a recorrer una ciudad japonesa, explorar un planeta alienígena, competir con una lancha en Ibiza o participar en una batalla con sables de luz.
+Quiero que M&V: Infinite Worlds sea un universo en constante expansión, donde pueda pasar de conducir un monoplaza de Fórmula 1 a recorrer una ciudad japonesa, explorar un planeta alienígena, competir con una lancha en Ibiza o participar en una batalla con sables de luz.
 
 **La prioridad absoluta es que el juego funcione realmente.** No sacrifiques las mecánicas, la estabilidad o la calidad por añadir funcionalidades que después no funcionan.
 
@@ -33,9 +33,9 @@ No existe una fecha límite artificial. Prefiero un desarrollo largo, bien organ
 
 # 1. IDENTIDAD DEL JUEGO
 
-Nombre oficial: **MingoVerse**.
+Nombre oficial: **M&V: Infinite Worlds**.
 
-MingoVerse es un universo compartido de mundos, vehículos, personajes, competiciones y aventuras.
+M&V: Infinite Worlds es un universo compartido de mundos, vehículos, personajes, competiciones y aventuras.
 
 Debe disponer de una identidad visual propia, atractiva y reconocible.
 
@@ -67,7 +67,7 @@ No quiero que cada modalidad sea un juego separado sin conexión con las demás.
 
 Este es uno de los pilares fundamentales del proyecto.
 
-Quiero que MingoVerse pueda alcanzar un catálogo de entre **500 y 5.000 mapas jugables**.
+Quiero que M&V: Infinite Worlds pueda alcanzar un catálogo de entre **500 y 5.000 mapas jugables**.
 
 Los mapas deben tener ambientaciones, recorridos, escenarios y mecánicas diferentes.
 
@@ -259,7 +259,7 @@ Permite carreras urbanas, recorridos turísticos, exploración, eventos y prueba
 
 ## 2.6. Fórmula 1 y automovilismo
 
-**La Fórmula 1 es uno de los pilares principales de MingoVerse.**
+**La Fórmula 1 es uno de los pilares principales de M&V: Infinite Worlds.**
 
 Quiero una categoría completa de automovilismo.
 
@@ -688,7 +688,7 @@ La historia debe proporcionar motivos para recorrer los mundos y conocer sus per
 
 ## 5.1. Narrativa
 
-Crea una aventura original de ciencia ficción que conecte las diferentes regiones del universo MingoVerse.
+Crea una aventura original de ciencia ficción que conecte las diferentes regiones del universo M&V: Infinite Worlds.
 
 Debe contar con:
 
@@ -739,7 +739,7 @@ Los controles y animaciones deben ser naturales.
 
 La historia debe organizarse por capítulos y regiones.
 
-Todos los mundos principales de MingoVerse deben tener contenido narrativo.
+Todos los mundos principales de M&V: Infinite Worlds deben tener contenido narrativo.
 
 Los mapas adicionales pueden integrarse mediante misiones, desafíos y actividades relacionadas con sus ambientaciones.
 
@@ -858,7 +858,7 @@ Puede existir un modo de prueba local, pero no debe confundirse con una partida 
 
 # 7. MI GARAJE Y MI BASE PERSONAL
 
-Quiero que cada usuario tenga un espacio personal dentro de MingoVerse.
+Quiero que cada usuario tenga un espacio personal dentro de M&V: Infinite Worlds.
 
 ## 7.1. Garaje central
 
@@ -1018,7 +1018,7 @@ Permite seleccionar:
 
 # 9. EVENTOS ESPECIALES Y TEMPORADAS
 
-Quiero que MingoVerse tenga vida más allá de las partidas normales.
+Quiero que M&V: Infinite Worlds tenga vida más allá de las partidas normales.
 
 Implementa un sistema de eventos y temporadas.
 
@@ -1477,7 +1477,7 @@ La pérdida de una sesión o el reinicio del contenedor no debe eliminar los dat
 
 # 19. INSTALACIÓN EN SYNOLOGY
 
-Quiero alojar MingoVerse mediante Docker Compose.
+Quiero alojar M&V: Infinite Worlds mediante Docker Compose.
 
 Características:
 
@@ -1695,7 +1695,7 @@ No detengas el desarrollo al finalizar la primera versión jugable. Continúa co
 
 # 23. FILOSOFÍA FINAL DEL PROYECTO
 
-MingoVerse debe ser un universo al que pueda volver durante meses o años.
+M&V: Infinite Worlds debe ser un universo al que pueda volver durante meses o años.
 
 Quiero poder:
 
@@ -1743,7 +1743,7 @@ Toma decisiones técnicas razonables sin detenerte a preguntarme por cada peque�
 
 Documenta las decisiones importantes.
 
-**Quiero que MingoVerse sea un universo de videojuegos persistente, expansible y verdaderamente jugable, no una demo visual.**
+**Quiero que M&V: Infinite Worlds sea un universo de videojuegos persistente, expansible y verdaderamente jugable, no una demo visual.**
 
 ---
 
@@ -1773,4 +1773,4 @@ Cuando alcances esos límites, guarda los avances en los archivos del proyecto y
 
 La continuación debe partir de los archivos existentes, sin volver a empezar desde cero ni sobrescribir funcionalidades que ya funcionan.
 
-**No quiero que me prometas un videojuego que desarrollarás en el futuro. Quiero que desarrolles realmente MingoVerse, avanzando todo lo posible en cada ejecución.**
+**No quiero que me prometas un videojuego que desarrollarás en el futuro. Quiero que desarrolles realmente M&V: Infinite Worlds, avanzando todo lo posible en cada ejecución.**
